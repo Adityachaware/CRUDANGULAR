@@ -1,0 +1,40 @@
+{
+  "restaurants": [
+    {
+      "name": "aditya",
+      "email": "aditya@test.com",
+      "address": "Pune",
+      "id": 1
+    },
+    {
+      "name": "udit",
+      "email": "udit@test.com",
+      "address": "mumbai",
+      "id": 2
+    },
+    {
+      "name": "shankar",
+      "email": "shankar@test.com",
+      "address": "delhi",
+      "id": 3
+    },
+    {
+      "name": "aditya kumar",
+      "email": "aditya@test.com",
+      "address": "narendra nagar",
+      "id": 4
+    },
+    {
+      "name": "kar",
+      "email": "karan@test.com",
+      "address": "delhi",
+      "id": 5
+    },
+    {
+      "name": "ravi",
+      "email": "ravi@test.com",
+      "address": "varanasi",
+      "id": 6
+    }
+  ]
+}

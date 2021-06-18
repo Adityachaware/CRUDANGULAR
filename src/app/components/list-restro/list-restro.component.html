@@ -1,0 +1,35 @@
+<h1>list-restro works!</h1>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">id</th>
+      <th scope="col">Name</th>
+      <th scope="col">Address</th>
+      <th scope="col">email</th>
+      <th scope="col">delete</th>
+      <th scope="col">Edit</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let user of userList; index as i">
+      <td>{{ i+ 1 }}</td>
+      <td>{{ user.name }}</td>
+      <td>{{ user.address }}</td>
+      <td>{{ user.email }}</td>
+      <td>
+        <a>
+          <i
+            class="fas fa-trash"
+            (click)="delete(user.id)"
+            style="font-size: 24px; color: red"
+          ></i>
+        </a>
+      </td>
+      <td>
+        <a routerLink="/update/{{i+1}}"
+          ><i class="fas fa-edit" style="font-size: 24px; color: blue"></i
+        ></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
